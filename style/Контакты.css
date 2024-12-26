@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Шапка сайта - навигационная панель  */
+.navbar {
+    background-color: #001f3f;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #A6B5BA;
+}
+
+.custom-link {
+    background-color: #A6B5BA;
+    color: white !important;
+    border-radius: 20px 0 20px 0;
+    padding: 5px 15px;
+}
+
+.custom-link:hover {
+    background-color: #A6B5BA;
+}
+
+/* конец нав понели */
+
+
+
+/* основная часть  */
+.container-fluid1 {
+    background-color: #BDC1C9;
+    max-width: 1500px;
+    margin: auto;
+    position: relative;
+}
+
+.row {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.text-warning {
+    color: fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center p {
+    font-size: 50px;
+    font-style: bold;
+    color: #fff;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.map {
+    border-radius: 25px;
+}
+
+.contact-card,
+.call-card {
+    border-radius: 35px;
+    color: white;
+}
+
+.contact-card {
+    background: #021C46;
+}
+
+.contact-card h3,
+.call-card h3 {
+    color: #fff;
+}
+
+.call-card {
+    background: #021C46;
+}
+
+.btn-book {
+    background-color: #0A1629;
+    color: white;
+    border-radius: 35px;
+    font-size: 32px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+    color: white;
+}
+
+
+.benefits-section {
+    background-color: #f4f4ff;
+    padding: 30px 0;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 15px;
+    color: #021C46;
+}
+
+.benefit-icon {
+    font-size: 2rem;
+    color: #021C46;
+}
+
+.benefit-text {
+    flex-grow: 1;
+}
+
+.benefit-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.benefit-description {
+    font-size: 14px;
+    color: #666;
+}
+/* конец основной части */
+
+
+
+/* подвал сайта */
+.footer {
+    background-color: #021C46;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h6 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons i {
+    font-size: 20px;
+    margin-right: 15px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: #1d9bf0;
+}
